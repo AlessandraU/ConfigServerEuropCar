@@ -1,0 +1,16 @@
+server:
+    port: 8080
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: alessandrau!
+        url: jdbc:mysql://212.131.189.19:30016/alessandrau
+        username: alessandrau
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    security:
+        user:
+            name: user
+            password: password
