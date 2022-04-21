@@ -6,6 +6,9 @@ spring:
         password: alessandrau!
         url: jdbc:mysql://212.131.189.19:30016/alessandrau
         username: alessandrau
+    properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQLDialect
     jpa:
         hibernate:
             ddl-auto: update
